@@ -5,35 +5,34 @@ VHDL implementation of an 8-bit ALU with an instruction set interpreter modeled 
 
 Instruction set:
 
-A          - 0x01
+0x01 - A
 
-B          - 0x02
+0x02 - B
 
-not A      - 0x03
+0x03 - not A
 
-not B      - 0x04
+0x04 - not B
 
-A + B      - 0x05
+0x05 - A + B
 
-A + B + 1  - 0x06
+0x06 - A + B + 1
 
-A + 1      - 0x07
+0x07 - A + 1
 
-B + 1      - 0x08
+0x08 - B + 1
 
-B - A      - 0x09
+0x09 - B - A
 
-B - 1      - 0x0a
+0x0a - B - 1
 
--A         - 0x0b
+0x0b - -A
 
-A and B    - 0x0c
+0x0c - A and B
 
-A or B     - 0x0d
+0x0d - A or B
 
-0          - 0x0e
+0x0e - 0
 
-1          - 0x0f
+0x0f - 1
 
--1         - 0x10
-
+0x10 - -1
